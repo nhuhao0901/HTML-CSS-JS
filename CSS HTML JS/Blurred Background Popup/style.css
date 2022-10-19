@@ -1,0 +1,19 @@
+body{
+    margin:0;
+}
+
+.container{
+    
+    background-color: rgb(0, 255, 13);
+    display: flex;
+}
+.popup-container{
+    background-color: yellow;
+}
+
+.active.popup-container{
+    visibility: hidden;
+}
+.active.container{
+    filter: blur(5px) brightness(.7);
+}
